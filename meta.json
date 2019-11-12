@@ -1,0 +1,7 @@
+{
+    "resources": [
+        {"path": "data/data1.csv"},
+        {"path": "data/data10.csv"},
+        {"path": "data/data100.csv"}
+    ]
+}
