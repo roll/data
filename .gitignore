@@ -52,5 +52,5 @@ package-lock.json
 assets/
 static/
 dist/
-data/data1000.csv
-data/data500.csv
+data/table1000.csv
+data/table500.csv

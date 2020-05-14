@@ -17,7 +17,7 @@ const write = async (options) => {
   return new Promise((resolve, reject) => {
     const isL = [1, 10, 100, 1000].includes(mBytes)
     const rows = (mBytes * 1000000) / tasks / (isL ? 100 : 50)
-    const csvStream = fs.createWriteStream(`data/data${mBytes}.csv`, options)
+    const csvStream = fs.createWriteStream(`data/table${mBytes}.csv`, options)
     for (const rowNumber of Array(rows).keys()) {
       const isT = faker.random.boolean()
       const string1 = faker.random.alphaNumeric(6)
