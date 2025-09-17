@@ -52,5 +52,7 @@ package-lock.json
 assets/
 static/
 dist/
-data/table1000.csv
-data/table500.csv
+data/table-10x10M.csv
+data/table-10x10M-invalid.csv
+data/table-5x10M.csv
+data/table-5x10M-invalid.csv

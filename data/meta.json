@@ -1,9 +1,0 @@
-{
-    "resources": [
-        {"path": "table1.csv"},
-        {"path": "table5.csv"},
-        {"path": "table10.csv"},
-        {"path": "table50.csv"},
-        {"path": "table100.csv"}
-    ]
-}
